@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a87a31f.css",
-    "main.js": "/static/js/main.62bd10bc.js",
-    "static/js/787.b3481c52.chunk.js": "/static/js/787.b3481c52.chunk.js",
-    "index.html": "/index.html",
-    "main.6a87a31f.css.map": "/static/css/main.6a87a31f.css.map",
-    "main.62bd10bc.js.map": "/static/js/main.62bd10bc.js.map",
-    "787.b3481c52.chunk.js.map": "/static/js/787.b3481c52.chunk.js.map"
+    "main.css": "/JB-Doffemont/React_tests.git/static/css/main.6a87a31f.css",
+    "main.js": "/JB-Doffemont/React_tests.git/static/js/main.d2bc0401.js",
+    "static/js/787.b3481c52.chunk.js": "/JB-Doffemont/React_tests.git/static/js/787.b3481c52.chunk.js",
+    "index.html": "/JB-Doffemont/React_tests.git/index.html",
+    "main.6a87a31f.css.map": "/JB-Doffemont/React_tests.git/static/css/main.6a87a31f.css.map",
+    "main.d2bc0401.js.map": "/JB-Doffemont/React_tests.git/static/js/main.d2bc0401.js.map",
+    "787.b3481c52.chunk.js.map": "/JB-Doffemont/React_tests.git/static/js/787.b3481c52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a87a31f.css",
-    "static/js/main.62bd10bc.js"
+    "static/js/main.d2bc0401.js"
   ]
 }
