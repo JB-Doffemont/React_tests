@@ -2,7 +2,7 @@
   "name": "tests-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/JB-Doffemont/React_tests.git",
+  "homepage":"https://jb-doffemont.github.io/React_tests/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
