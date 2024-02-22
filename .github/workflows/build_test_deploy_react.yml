@@ -48,7 +48,7 @@ jobs:
         id: build_version
         run: |
             build_verion="${{ github.run_id }}.${{ github.run_number }}.${{ github.run_attempt }}"
-            git tag v0.1.0 -a -m "build render ${build_version}"
+            git tag v0.1.0-alpha -a -m "build render ${build_version}"
             npm version from-git
 
     # Deploy Job
