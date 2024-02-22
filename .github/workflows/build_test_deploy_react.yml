@@ -56,7 +56,7 @@ jobs:
 
       - name: Update README with build version
         run: |
-              echo "Build Version: ${build_version}" >> test_practices/README.md
+              echo "Build Version: ${build_version}" >> tests_practice/README.md
 
     # Deploy Job
   deploy:
