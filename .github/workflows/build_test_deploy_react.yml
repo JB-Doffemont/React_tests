@@ -56,7 +56,7 @@ jobs:
 
       - name: Update README with build version
         run: |
-              echo "Build Version: v$(npm view react_tests version)" >> test_practices/README.md
+              echo "Build Version: v$(build_version)" >> test_practices/README.md
 
     # Deploy Job
   deploy:
