@@ -62,7 +62,7 @@ jobs:
       - name: Push changes
         run: |
             cd tests-practice
-            git push origin main
+            git push ${{ github.ref }}
               
     # Deploy Job
   deploy:
