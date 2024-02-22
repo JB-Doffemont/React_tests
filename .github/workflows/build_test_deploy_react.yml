@@ -49,6 +49,8 @@ jobs:
         run: |
           build_verion="${{ github.run_id }}.${{ github.run_number }}.${{ github.run_attempt }}"
           cd tests-practice
+          git config --global user.email "jeanbernard_doffemont@yahoo.fr"
+          git config --global user.name "JB-Doffemont"
           git tag v0.1.0-alpha -a -m "build render ${build_version}"
           npm version from-git
 
