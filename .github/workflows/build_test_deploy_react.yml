@@ -53,11 +53,14 @@ jobs:
           git config --global user.name "JB-Doffemont"
           git tag v0.1.0-${build_version} -a -m "build render ${build_version}"
           npm version --allow-same-version from-git
+          echo "Build Version: ${build_version}" >> README.md
+          git commit -a -m "new version ${build_version}"
 
-      - name: Update README with build version
+      - name: Push changes
         run: |
-              echo "Build Version: ${build_version}" >> tests-practice/README.md
-
+            cd tests-practice
+            git push origin main
+              
     # Deploy Job
   deploy:
     # Deploy to the github-pages environment
