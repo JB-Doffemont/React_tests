@@ -50,6 +50,7 @@ jobs:
 
       - name: Build and docs
         run: |
+          cd tests-practice
           npm run jsdoc
           npm run build --if-present
            
