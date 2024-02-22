@@ -44,6 +44,13 @@ jobs:
         uses: codecov/codecov-action@v3
         env:
           token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Generate build version
+        id: build_version
+        run: |
+            build_verion="${{ github.run_id }}.${{ github.run_number }}.${{ github.run_attempt }}"
+            git tag v0.1.0 -a -m "build render ${build_version}"
+            npm version from-git
+
     # Deploy Job
   deploy:
     # Deploy to the github-pages environment
