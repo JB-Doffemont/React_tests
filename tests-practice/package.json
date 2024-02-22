@@ -2,7 +2,7 @@
   "name": "tests-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jb-doffemont.github.io/React_tests/",
+  "homepage": "https://jb-doffemont.github.io/React_tests/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,7 +18,7 @@
     "test": "react-scripts test  --coverage --collectCoverageFrom=src/**/*js --collectCoverageFrom=!src/reportWebVitals.js --collectCoverageFrom=!src/index.js --watchAll=false",
     "eject": "react-scripts eject",
     "jsdoc": "jsdoc -R ./README.md -c ./jsdoc.config.json -r -d ./public/docs",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
